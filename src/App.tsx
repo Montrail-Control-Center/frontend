@@ -1,13 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Homepage from './pages/Homepage/Homepage';
+import './App.scss'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Montrail International.</h1>
-      </header>
+    <div className='container'>
+      <Homepage/>
     </div>
   );
 }
